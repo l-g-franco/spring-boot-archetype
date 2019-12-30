@@ -1,6 +1,6 @@
  Spring Boot 2 Quickstart Maven Archetype
 =========================================
-![Build Status](https://travis-ci.org/Romeh/spring-boot-quickstart-archtype.svg?branch=master)
+![Build Status](https://github.com/l-g-franco/spring-boot-archetypegit commit.svg?branch=master)
 
 ![alt text](AppArchtype.jpg)
 Summary
@@ -58,4 +58,4 @@ http://localhost:8080/swagger-ui.html
 
 Sample app generated from that archetype can be found here and more technical explanation:
 -------------------
-https://github.com//spring-boot-sample-app
+https://github.com/l-g-franco/spring-boot-ejemplo-app
