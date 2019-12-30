@@ -1,33 +1,31 @@
- Spring Boot 2 Quickstart Maven Archetype
-=========================================
-![Build Status](https://github.com/l-g-franco/spring-boot-archetypegit commit.svg?branch=master)
-
+ Spring Boot 2 Inicio Rapido con Maven Archetype
+========================================= 
 ![alt text](AppArchtype.jpg)
-Summary
+Introducción
 -------
-The project is a Maven archetype for Spring Boot web application 
-which has all common standards on place ready for development
+Este proyecto es un Maven archetype para Spring Boot web application 
+que tiene todos los estándares comunes en el lugar listos para el desarrollo
 
 - Java 1.8+
 - Maven 3.5+
 - Spring boot 2.1.0.RELEASE+
 - Lombok abstraction
-- JPA with H2 for explanation
+- JPA with H2 para explicacion
 - Swagger 2 API documentation
-- Spring retry and circuit breaker for external service call
+- Spring retry and circuit breaker para llamadas de servicios externos
 - REST API model validation 
-- Spring cloud config for external configuration on GIT REPO
-- Cucumber and Spring Boot test for integration test
-- Jenkins Pipeline for multi branch project
-- continuous delivery and integration standards with Sonar check and release management
+- Spring cloud config para configuraciones externas en GIT REPO
+- Cucumber and Spring Boot pruebas de integracion
+- Jenkins Pipeline para proyectos con multiples ramas
+- integracion y entegra continua estandares con Sonar check y release management
 - Support retry in sanity checks 
 - Logback configuration  
 
 
-Installation
+Installación
 ------------
 
-To install the archetype in your local repository execute following commands:
+para instalar el arquetipo en tu repositorio local ejecuta los siguientes comandos:
 
 ```sh
 $ git clone https://github.com//spring-boot-quickstart-archtype.git
@@ -56,6 +54,3 @@ Test on the browser via SWAGGER
 http://localhost:8080/swagger-ui.html
 ```
 
-Sample app generated from that archetype can be found here and more technical explanation:
--------------------
-https://github.com/l-g-franco/spring-boot-ejemplo-app
